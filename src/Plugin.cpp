@@ -1,5 +1,4 @@
-#include <Windows.h>
-#include "../rmapi/RainmeterAPI.h"
+#include "Plugin.h"
 #include "Measure.h"
 
 HINSTANCE MODULE_INSTANCE;

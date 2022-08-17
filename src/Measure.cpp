@@ -1,5 +1,5 @@
+#include "Plugin.h"
 #include "Measure.h"
-#include "..\rmapi\RainmeterAPI.h"
 
 Measure::Measure(void* _rm) :
 	rm(_rm),
