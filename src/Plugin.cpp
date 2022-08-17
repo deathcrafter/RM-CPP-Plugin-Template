@@ -37,7 +37,7 @@ PLUGIN_EXPORT void Initialize(void** data, void* rm)
 * Called before every Update if DynamicVariables=1 is defined
 * Read options that can require dynamic variables here
 */
-PLUGIN_EXPORT void Reload(void* data, void* rm, double maxValue)
+PLUGIN_EXPORT void Reload(void* data, void* rm, double* maxValue)
 {
 	Measure* measure = (Measure*)data;
 }
