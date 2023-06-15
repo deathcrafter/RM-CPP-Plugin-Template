@@ -20,6 +20,8 @@ BOOL WINAPI DllMain(
 	default:
 		break;
 	}
+
+	return TRUE;
 }
 
 /*
